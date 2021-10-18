@@ -24,7 +24,7 @@ cursor = connection.cursor()
 #user name--------------------------------------------------------------------------
 username = 'waldekmastykarz'
 #-----------------------------------------------------------------------------------
-token = os.getenv('GITHUB_TOKEN', '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')
+token = os.getenv('GITHUB_TOKEN', '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')
 params = {}
 headers = {'Authorization': f'token {token}'}
 data = requests.get('https://api.github.com/users/' +
